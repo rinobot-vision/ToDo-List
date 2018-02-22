@@ -3,29 +3,23 @@ Proximas tarefas:
 
 Back End
 
-1- Testar filtro do Felipe:
-	Ajuste fino. Calibrar as constantes para o angulo
-	Testar adequadamente o filtro. 
-	REQUER PRESENÇA DA ESTRATÉGIA
-
-2- Testar filtro de Kalman (implementação do OpenCV) 
-	Evitar "Parede de escudos".
+1- Testar o "bounding box" do OpenCV - MinAreaRect()
+    
+    RETIRADO DE PRIORIDADE
+    Testar filtro de Kalman (implementação do OpenCV) 
+	Evitar "Parede de escudos". 
 
 Front End
 
 0- Inserir barra indicador da Matiz no calibrador de cores
 
-1- Testar botão para ligar/desligar o LPF
-
-2- Slider para controlar a frequencia de corte do filtro do Felipe
-	Efetivamente passar o valor para a variável necessária
-	Testar funcionamento
-
-3- Testar botão de troca de cor do time.
+1- Sublstitir Slider por Spin Box
+ 
+2- Testar botão de troca de cor do time.
 	Simular situação real de jogo e testar o funcionamento da ferramenta
 	REQUER PRESENÇA DA ESTRATÉGIA
 
-4- Exibir em uma tela para a estratégia:
+3- Exibir em uma tela para a estratégia:
     - Canal de cada robô
     - Velocidade enviada para cada robô
     - Velocidade calculada pela visão para robôs e bola
@@ -33,20 +27,31 @@ Front End
     - Orientação do robô definida pela visão
     - Indicador da trajetória desejada da bola (conversar com a estrategia)
 
-5- Permitir alterar via interface gráfica
+    CONECTAR COM O BACKEND - REQUER AUXILIO DA ESTRATEGIA
+
+4- Permitir alterar via interface gráfica
     - Velocidade maxima de cada robô
     - Ganho do PID
     - Mover o botão "mudar estratégia" para uma tela dedicada
+
+    CONECTAR COM O BACKEND - REQUER AUXILIO DA ESTRATEGIA
+
 ========================================================================
 
 Concluidos
 
 BackEnd 
-1- Fator de Correcao Camera
+
+1- Testar filtro do Felipe:
+	Ajuste fino. Calibrar as constantes para o angulo
+	Testar adequadamente o filtro. 
+	REQUER PRESENÇA DA ESTRATÉGIA
+
+2- Fator de Correcao Camera
 	Automatizar/generalizar para qualquer caso.
 	CONCLUIDO
 
-2- Calibração Video4linux - Interrompido em 06/02/2018.
+3- Calibração Video4linux - Interrompido em 06/02/2018.
 	CONCLUIDO
 
 FrontEnd
@@ -65,7 +70,25 @@ FrontEnd
 3- Slider para controlar a frequencia de corte do filtro do Felipe
 	CONCLUIDO
 
+4- Testar botão para ligar/desligar o LPF
+    CONCLUÍDO
 
+5- Slider LPF - Efetivamente passar o valor para a variável necessária
+   Testar funcionamento
+    CONCLUÍDO
+6- Exibir em uma tela para a estratégia:
+    - Canal de cada robô
+    - Velocidade enviada para cada robô
+    - Velocidade calculada pela visão para robôs e bola
+    - Posicao calculada pela visão para robôs e bola
+    - Orientação do robô definida pela visão
+    - Indicador da trajetória desejada da bola (conversar com a estrategia)
 
+    ESBOÇO PRONTO
 
+7- Permitir alterar via interface gráfica
+    - Velocidade maxima de cada robô
+    - Ganho do PID
+    - Mover o botão "mudar estratégia" para uma tela dedicada
 
+    ESBOÇO PRONTO
