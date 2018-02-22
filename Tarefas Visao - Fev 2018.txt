@@ -1,0 +1,71 @@
+Lista de afazeres Visao - Fev 2018
+Proximas tarefas:
+
+Back End
+
+1- Testar filtro do Felipe:
+	Ajuste fino. Calibrar as constantes para o angulo
+	Testar adequadamente o filtro. 
+	REQUER PRESENÇA DA ESTRATÉGIA
+
+2- Testar filtro de Kalman (implementação do OpenCV) 
+	Evitar "Parede de escudos".
+
+Front End
+
+0- Inserir barra indicador da Matiz no calibrador de cores
+
+1- Testar botão para ligar/desligar o LPF
+
+2- Slider para controlar a frequencia de corte do filtro do Felipe
+	Efetivamente passar o valor para a variável necessária
+	Testar funcionamento
+
+3- Testar botão de troca de cor do time.
+	Simular situação real de jogo e testar o funcionamento da ferramenta
+	REQUER PRESENÇA DA ESTRATÉGIA
+
+4- Exibir em uma tela para a estratégia:
+    - Canal de cada robô
+    - Velocidade enviada para cada robô
+    - Velocidade calculada pela visão para robôs e bola
+    - Posicao calculada pela visão para robôs e bola
+    - Orientação do robô definida pela visão
+    - Indicador da trajetória desejada da bola (conversar com a estrategia)
+
+5- Permitir alterar via interface gráfica
+    - Velocidade maxima de cada robô
+    - Ganho do PID
+    - Mover o botão "mudar estratégia" para uma tela dedicada
+========================================================================
+
+Concluidos
+
+BackEnd 
+1- Fator de Correcao Camera
+	Automatizar/generalizar para qualquer caso.
+	CONCLUIDO
+
+2- Calibração Video4linux - Interrompido em 06/02/2018.
+	CONCLUIDO
+
+FrontEnd
+0- Criar conta no git para TODOS os membros
+	- Bruno 
+	- Carlos
+	- Yann
+	CONCLUIDO
+	
+1- Implementar botão para trocar cor do time
+	CONCLUIDO
+
+2- Botão para ligar/desligar o LPF
+	CONCLUIDO
+
+3- Slider para controlar a frequencia de corte do filtro do Felipe
+	CONCLUIDO
+
+
+
+
+
