@@ -1,0 +1,14 @@
+Pauta Reuniao Visao 21/03/2018
+
+Tarefas: 
+
+- Reescrever todo o sistema (LARC)
+- Investir em Câmera Nova (Modelo RobotBulls)
+- Alterar os chapéus (Diminuir o tamanho das figuras)
+- Mudar a forma de detecção (Casamento de padroes -> SSL)
+- Medir:
+    - Atraso da Camera
+    - Erro de Posicao
+- Eliminar distorções de paralaxe
+- Calibrar parâmetros para eliminar "fish-eye"
+- Estudar código "Carlos"
