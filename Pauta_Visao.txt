@@ -1,6 +1,25 @@
-Pauta Reuniao Visao 21/03/2018
+Em reunião presentes todos os membros, exceto Yann e Felipe, a equipe entende que será dedicada atenção para a manutenção corretiva do sistema já existente e já serão iniciados os procedimentos para a elaboração de um novo e completo sistema.
+Tem-se então:
 
-Tarefas: 
+Sistema Atual:
+- Manutenção corretiva:
+    - Teste do chapéu do robô, com mesma geometria e dimensões reduzidas.
+    - Calibrar a câmera e aplicar as transformações para eliminar erros de paralaxe, "fishEye"
+        - Medir o desempenho correspondente (ainda falta um bom método para isso).
+    - Medir o atraso da câmera (tempo desde a emissão do sinal e o processamento da imagem)
+    - Medir o erro de posição (diferença entre a posição medida pelo sistema e a posição real no campo)
+
+
+Sistema Novo:
+- Prazo: Até a LARC 2018
+- Produzir modelos iniciais: Ao menos Caso de Usos e Diagrama de Classes
+- Estudar o código do "Carlos"
+- Estudar a viabilidade de uma câmera nova
+- Buscar feedback da Estratégia sobre as mudanças na interface.
+
+=================================================================================================
+
+Pauta Reuniao Visao 21/03/2018
 
 - Reescrever todo o sistema (LARC)
 - Investir em Câmera Nova (Modelo RobotBulls)
