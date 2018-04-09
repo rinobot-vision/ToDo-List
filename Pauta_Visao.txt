@@ -1,3 +1,40 @@
+Reunião dia 04/04/2018
+
+Presentes todos os membros da Visão
+Feito:
+
+1- Medidas feitas para posicao e ângulo
+2- Tratamento feito para a posição apenas, até o momento:
+    Erro em x: 0.5 cm
+    Erro em y: 3.0 cm
+
+3- Ping da camera 0.002 s aprox.
+
+A fazer (para 11/04/2018):
+1 - Aplicar filtro nos centroides das cores - Felipe
+
+2 - Estudar CIE-xyz - Parâmetros... estudar sobre cãmera nova
+
+    Câmera atual: Logitec c920 HD Pro Webcam - Carlos
+    Camera indicada do SSL: Stingray F046c - Bruno
+    Cameras que o Barino achou: 
+    Allied Vision Mako G032C - Alice
+                       G131C - Yann
+                       G192C - Igor 
+
+    Camera usada pela RobotBulls: ELP-USBFHD01M-MFV(5-50mm) - Guilherme
+
+
+3 - Algoritmo para calibração de cor: Implementar - Mateus
+        Medir/tratar o custo...
+
+4 - Algoritmo para correção da perspectiva: Implementar - Felipe
+        Medir/tratar o custo... 
+
+5 - Teste do chapéu do robô, com mesma geometria e dimensões reduzidas.
+
+=============================================================
+
 Em reunião presentes todos os membros, exceto Yann e Felipe, a equipe entende que será dedicada atenção para a manutenção corretiva do sistema já existente e já serão iniciados os procedimentos para a elaboração de um novo e completo sistema.
 Tem-se então:
 
