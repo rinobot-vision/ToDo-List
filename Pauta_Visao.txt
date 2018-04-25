@@ -1,3 +1,37 @@
+Reunião dia 25/04/2018
+
+Presentes: Alice, Bruno, Felipe, Guilherme e Yann
+
+Resultados útima semana (18/04 a 25/04):
+	** Teste chápeu (Alice, Bruno e Carlos):
+		* Quadrado do robô menor, com áreas pretas em volta e no meio:
+		* Cálculos foram feitos para manter o centróide
+		* Distância entre 1cm (emcada robô) para não grudar => diminuir muito o tamanho do quadrado => dificulta detecção
+	** RinoBot System V2:
+		* Discutido um esboço da parte da visão para preparar os membros para a reunião do dia 02/04/2018:
+
+Para a próxima semana (25/04 a 02/05):
+	** Criar 2 robos de cada chapéu novo:
+		* Formato dos chapéus estão disponíveis no grupo do WPP (Alice, Bruno e Carlos)
+		* Tirar fotos em várias situações 
+			## Exemplo:
+				# cada robô com um [x,y,theta] sem colisão
+				# Colisão em diferentes casos ( analisar os casos sujeitos a maiores problemas )
+
+	** Reunião RinoBot System V2 dia 02/04/2018:
+		* Organizar material já preparado (Yann)
+
+	** Testar novos chapéus [Parte 1/2] (Felipe e Guilherme)
+		* Criar um arquivo somente para testar colisão, centróide e ângulo dos chapéus novos em fotos tiradas no campo
+			## Códigos de exemplos (boundingbox, identificar formas - cpp e py): 
+				# https://docs.opencv.org/2.4/doc/tutorials/imgproc/shapedescriptors/bounding_rects_circles/bounding_rects_circles.html
+				# https://docs.opencv.org/2.4/doc/tutorials/imgproc/shapedescriptors/bounding_rotated_ellipses/bounding_rotated_ellipses.html
+				# https://namkeenman.wordpress.com/2015/12/18/open-cv-determine-angle-of-rotatedrect-minarearect/
+				# https://stackoverflow.com/questions/11424002/how-to-detect-simple-geometric-shapes-using-opencv?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
+				# https://www.pyimagesearch.com/2016/02/08/opencv-shape-detection/
+
+=================================================================================================
+
 Reunião dia 04/04/2018
 
 Presentes todos os membros da Visão
