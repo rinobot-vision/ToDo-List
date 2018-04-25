@@ -21,7 +21,7 @@ Para a próxima semana (25/04 a 02/05):
 	** Reunião RinoBot System V2 dia 02/04/2018:
 		* Organizar material já preparado (Yann)
 
-	** Testar novos chapéus [Parte 1/2] (Felipe e Guilherme)
+	** Testar novos chapéus [Parte 1/2: Desenvolvimento (25/04 - 02/05); Desenvolvimento e teste (02/05 - 09/05)] (Felipe e Guilherme)
 		* Criar um arquivo somente para testar colisão, centróide e ângulo dos chapéus novos em fotos tiradas no campo
 			## Códigos de exemplos (boundingbox, identificar formas - cpp e py): 
 				# https://docs.opencv.org/2.4/doc/tutorials/imgproc/shapedescriptors/bounding_rects_circles/bounding_rects_circles.html
